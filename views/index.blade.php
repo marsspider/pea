@@ -12,6 +12,11 @@
 				<span>Pico Framework for PHP with Multilanguage, Routing e BladeTemplate</span>
 			</div>
 		</div>
+		<div class="row">
+			<div class="col-xs-12 splash">
+				You are entering with path: {{ $data }}
+			</div>
+		</div>
 	</div>
 @stop
 
