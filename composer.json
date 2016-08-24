@@ -13,8 +13,8 @@
     "license": "MIT",
     "require": {
 		"php": ">=5.4",
-		"eftec/bladeone": "dev-master",
-        "torophp/torophp": "dev-master"
+		"eftec/bladeone": ">=1.6",
+        "torophp/torophp": ">=2"
     },
 	"autoload": {
 		"psr-4": {
