@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "79845ca420da46328a90a67822b80b6c",
-    "content-hash": "a0b94da672d50eff4d1ed1a0fce9ef51",
+    "hash": "fac8285b8804e4db787e06b70aadf873",
+    "content-hash": "9401e728bb86165ab802e265aa7b8a5d",
     "packages": [
         {
             "name": "eftec/bladeone",
@@ -132,11 +132,8 @@
     ],
     "packages-dev": [],
     "aliases": [],
-    "minimum-stability": "stable",
-    "stability-flags": {
-        "eftec/bladeone": 20,
-        "torophp/torophp": 20
-    },
+    "minimum-stability": "dev",
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

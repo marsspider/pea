@@ -1,6 +1,7 @@
 {
 	"name": "marsspider/pea",
-    "type": "framework",
+    "type": "project",
+	"version": "1.0.0-dev",
     "description": "Pea is a Pico Framework for PHP with Multilanguage, Routing e BladeTemplate.",
     "keywords": [
         "framework",
