@@ -6,8 +6,12 @@
 
 @section('content')
 	<div class="container">
-		Content HERE<br />
-		Data: {{ $data }}
+		<div class="row">
+			<div class="col-xs-12 splash">
+				<img src="/assets/img/PeaLogo.png" alt="" />
+				<span>Pico Framework for PHP with Multilanguage, Routing e BladeTemplate</span>
+			</div>
+		</div>
 	</div>
 @stop
 

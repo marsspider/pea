@@ -1,1 +1,1 @@
-body,html{margin:0px;padding:0px;min-height:100%}
+@import 'https://fonts.googleapis.com/css?family=Comfortaa';body,html{margin:0px;padding:0px;min-height:100%;font-family:'Comfortaa'}.navigation{width:100%;background-color:#eee;padding:10px}.splash{margin-top:160px;text-align:center}.splash img{margin:40px auto;display:block}

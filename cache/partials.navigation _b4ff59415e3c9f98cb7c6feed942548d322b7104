@@ -1,1 +1,3 @@
-Navigation Here
+<section class="navigation">
+	Navigation Here
+</section>
