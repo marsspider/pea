@@ -12,3 +12,6 @@ cd [app-name]
 chmod ugo+rwx compiled/
 chmod ugo+rwx cache/
 ```
+
+*Hint: At the end of the installation composer will ask you to remove the vcs history.*
+**Answer YES**
