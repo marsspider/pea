@@ -11,10 +11,12 @@
     ],
     "homepage": "https://github.com/marsspider/pea",
     "license": "MIT",
+	"minimum-stability": "dev",
+	"prefer-stable": true,
     "require": {
 		"php": ">=5.4",
-		"eftec/bladeone": ">=1.6",
-        "torophp/torophp": ">=2"
+		"eftec/bladeone": "dev-master",
+        "torophp/torophp": "dev-master"
     },
 	"autoload": {
 		"psr-4": {
