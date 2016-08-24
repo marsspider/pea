@@ -12,8 +12,6 @@
     ],
     "homepage": "https://github.com/marsspider/pea",
     "license": "MIT",
-	"minimum-stability" : "dev-master",
-	"prefer-stable" : true,
     "require": {
 		"php": ">=5.4",
 		"eftec/bladeone": "dev-master",
