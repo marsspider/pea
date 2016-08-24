@@ -1,0 +1,24 @@
+{
+	"name": "marsspider/pea",
+    "type": "framework",
+    "description": "Pea is a Pico Framework for PHP with Multilanguage, Routing e BladeTemplate.",
+    "keywords": [
+        "framework",
+        "php",
+        "router",
+		"template",
+		"multilanguage"
+    ],
+    "homepage": "https://github.com/marsspider/pea",
+    "license": "MIT",
+    "require": {
+		"php": ">=5.4",
+		"eftec/bladeone": "dev-master",
+        "torophp/torophp": "dev-master"
+    },
+	"autoload": {
+		"psr-4": {
+			"eftec\\": "vendor/eftec/"
+		}
+	}
+}

@@ -1,0 +1,7 @@
+/node_modules
+/vendor
+.smbdelete*
+cifs*
+.DS_*
+Thumbs.db
+._*

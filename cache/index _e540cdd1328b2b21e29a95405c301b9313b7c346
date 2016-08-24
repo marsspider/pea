@@ -1,0 +1,17 @@
+<?php $this->startSection('styles'); ?>
+	<link rel="stylesheet" href="/assets/css/styles.css">
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('content'); ?>
+	<div class="container">
+		Content HERE<br />
+		Data: <?php echo static::e($data); ?>
+
+	</div>
+<?php $this->stopSection(); ?>
+
+<?php $this->startSection('scripts'); ?>
+	<script src="/assets/js/scripts.js"></script>
+<?php $this->stopSection(); ?>
+
+<?php echo $this->runChild('layout.default'); ?>
