@@ -8,7 +8,7 @@ replace [app-name] with your Application name.
 
 ```console
 composer create-project marsspider/pea:dev-master [app-name]
-composer install
+cd [app-name]
 chmod ugo+rwx compiled/
 chmod ugo+rwx cache/
 ```
