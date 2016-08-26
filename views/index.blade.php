@@ -9,13 +9,18 @@
 		<div class="row">
 			<div class="col-xs-12 splash">
 				<img src="/assets/img/PeaLogo.png" alt="" />
-				<span>Pico Framework for PHP with Multilanguage, Routing e Blade Templates</span>
+				<span>{{ tr('intro_headline') }}</span>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12 splash-info-lang">
+				{{ tr('intro_lang_info') }}<span class="highlight">{{ App::$currentLang }}</span>
 			</div>
 		</div>
 		<div class="row">
 			@if($data != '')
-				<div class="col-xs-12 splash">
-					You are entering with path: {{ $data }}
+				<div class="col-xs-12 splash-info-path">
+					{{ tr('intro_path_info') }}<span class="highlight">{{ $data }}</span>
 				</div>
 			@endif
 		</div>

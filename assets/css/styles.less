@@ -1,16 +1,33 @@
-@import 'https://fonts.googleapis.com/css?family=Comfortaa';
+@import 'https://fonts.googleapis.com/css?family=Comfortaa:300,400,700';
 
 body, html {
 	margin: 0px;
 	padding: 0px;
 	min-height: 100%;
 	font-family: 'Comfortaa';
+	font-weight: 300;
 }
 
 .navigation {
 	width: 100%;
 	background-color: #eee;
 	padding: 10px;
+	.lang-choose-container {
+		text-align: right;
+	}
+	ul {
+		list-style-type: none;
+		li {
+			display: inline-block;
+			margin-left: 10px;
+			font-size: 1.2em;
+			border-left: 2px solid #999;
+			padding-left: 10px;
+			&:first-child {
+				border: 0px;
+			}
+		}
+	}
 }
 
 .splash {
@@ -20,4 +37,18 @@ body, html {
 		margin: 40px auto;
 		display: block;
 	}
+}
+.splash-info-lang {
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 60px;
+}
+.splash-info-path {
+	font-size: 1.2em;
+	text-align: center;
+	margin-top: 10px;
+}
+.highlight {
+	font-weight: 700;
+	color: #3fb400;
 }

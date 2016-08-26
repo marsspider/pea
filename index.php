@@ -16,7 +16,9 @@
 
 	Toro::serve(array(
 		"/" => "HomeHandler",
-		"/([a-zA-Z]+)" => "HomeHandler",
+		"/:string" => "HomeHandler",
+		"/:string/:string" => "HomeHandler",
+		"/:string/:string/:string" => "HomeHandler",
 	));
 
 ?>
