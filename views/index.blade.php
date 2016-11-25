@@ -1,7 +1,7 @@
 @extends('layout.default')
 
 @section('styles')
-	<link rel="stylesheet" href="/assets/css/styles.css">
+	<link rel="stylesheet" href="/assets/css/styles.min.css">
 @endsection
 
 @section('content')

@@ -1,0 +1,32 @@
+{
+  "name": "pea",
+  "version": "0.1.0",
+  "description": "Microframework with Routing, Blade Template, Lang Support, Dev Browser Sync",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://marsspider:ms_gh_290310@github.com/marsspider/pea.git"
+  },
+  "author": "Ivan Zambanello",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/marsspider/pea/issues"
+  },
+  "homepage": "https://github.com/marsspider/pea#readme",
+  "devDependencies": {
+    "browser-sync": "^2.18.2",
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-minify-css": "^1.2.4",
+    "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^2.3.2",
+    "gulp-uglify": "^2.0.0",
+    "gulp-util": "^3.0.7",
+    "node-neat": "^1.7.2"
+  }
+}
