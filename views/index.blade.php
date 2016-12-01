@@ -8,6 +8,7 @@
 	<div class="container">
 		<div class="row">
 			<div class="col-xs-12 splash">
+				<div class="logo"></div>
 				<img src="/assets/img/PeaLogo.png" alt="" />
 				<span>{{ tr('intro_headline') }}</span>
 			</div>

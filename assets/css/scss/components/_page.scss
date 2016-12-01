@@ -5,6 +5,41 @@
 		margin: 40px auto;
 		display: block;
 	}
+
+	.logo {
+		width: 100px;
+		height: 100px;
+		background-color: #3fb400;
+		border-radius: 50%;
+		position: relative;
+		overflow: hidden;
+		&:before {
+			content: '';
+			position: absolute;
+			left: 10px;
+			top: 10px;
+			width: 70px;
+			height: 70px;
+			display: block;
+			background-color: lighten(#3fb400, 8%);
+			border-radius: 50%;
+		}
+		&:after {
+			content: '';
+			position: absolute;
+			left: 50%;
+			top: 50%;
+			margin-left: -40px;
+			margin-top: -35px;
+			transform: rotate(-45deg);
+			width: 80px;
+			height: 70px;
+			display: block;
+			background-color: #3fb400;
+			border-radius: 50%;
+		}
+	}
+
 }
 .splash-info-lang {
 	font-size: 1.2em;
