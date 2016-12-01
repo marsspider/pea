@@ -17,9 +17,8 @@ gulp.task('sass', function () {
 	.pipe(sass({
 		includePaths: ['scss'].concat(neat)
 	}))
-	.pipe(gulp.dest('assets/css'))
-	.pipe(rename({suffix: '.min', extname:'.css'}))
 	.pipe(minifycss())
+	.pipe(rename({basename:'styles', suffix: '.min', extname:'.css'}))
 	.pipe(gulp.dest('assets/css'))
 	.pipe(reload({stream:true}));
 });

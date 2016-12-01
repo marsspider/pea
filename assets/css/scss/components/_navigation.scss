@@ -1,0 +1,21 @@
+.navigation {
+	width: 100%;
+	background-color: #eee;
+	padding: 10px;
+	.lang-choose-container {
+		text-align: right;
+	}
+	ul {
+		list-style-type: none;
+		li {
+			display: inline-block;
+			margin-left: 10px;
+			font-size: 1.2em;
+			border-left: 2px solid #999;
+			padding-left: 10px;
+			&:first-child {
+				border: 0px;
+			}
+		}
+	}
+}

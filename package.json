@@ -27,6 +27,7 @@
     "gulp-sass": "^2.3.2",
     "gulp-uglify": "^2.0.0",
     "gulp-util": "^3.0.7",
+    "mcgriddle": "^0.4.2",
     "node-neat": "^1.7.2"
   }
 }
